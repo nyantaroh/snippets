@@ -1,0 +1,63 @@
+{
+  "generate html5": {
+  "prefix": "html",
+  "body": [
+      "<!DOCTYPE html>",
+      "<html>",
+      "<head>",
+      "\t<meta charset=\"utf-8\">",
+      "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+      "\t<meta name=\"description\" content=\"\">",
+      "\t<title></title>",
+      "\t<link rel=\"stylesheet\" href=\"css/style.css\">",
+      "</head>",
+      "<body>",
+      "\t",
+      "</body>",
+      "</html>"
+    ],
+    "description": "HTML5の基本骨格(ogなし)"
+  },
+  "generate html5 + og": {
+    "prefix": "htmlog",
+    "body": [
+      "<!DOCTYPE html>",
+      "<html prefix=\"og: http://ogp.me/ns#\">",
+      "<head>",
+      "\t<meta charset=\"utf-8\">",
+      "\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+      "\t<meta name=\"description\" content=\"\">",
+      "\t<meta property=\"og:title\" content=\"\">",
+      "\t<meta property=\"og:description\" content=\"\">",
+      "\t<meta property=\"og:image\" content=\"\">",
+      "\t<meta property=\"og:url\" content=\"\">",
+      "\t<meta property=\"og:type\" content=\"website\">",
+      "\t<title></title>",
+      "\t<link rel=\"stylesheet\" href=\"css/style.css\">",
+      "</head>",
+      "<body>",
+      "\t",
+      "</body>",
+      "</html>"
+    ],
+    "description": "HTML5の基本骨格(ogあり)"
+  },
+  "generate break only-pc": {
+    "prefix": "onlypc",
+    "body": [
+      "class=\"only-pc\""
+    ]
+  },
+  "generate break only-sp": {
+    "prefix": "only",
+    "body": [
+      "class=\"only-sp\""
+    ]
+  },
+  "href blank": {
+    "prefix": "blank",
+    "body": [
+      "target=\"_blank\""
+    ]
+  },
+}

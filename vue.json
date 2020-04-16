@@ -1,0 +1,18 @@
+{
+  "template": {
+    "prefix": "temp",
+    "body": [
+      "<template>",
+      "\t$0",
+      "</template>"
+    ]
+  },
+  "script": {
+    "prefix": "script",
+    "body": [
+      "<script>",
+      "\t$0",
+      "</script>"
+    ]
+  },
+}

@@ -1,0 +1,105 @@
+{
+  "border-radius": {
+    "prefix": "radius",
+    "body": [
+      "border-radius: $0px;"
+    ]
+  },
+  "media-pc": {
+    "prefix": "inp",
+    "body": [
+      "@include pc {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "media-tab": {
+    "prefix": "int",
+    "body": [
+      "@include tab {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "media-not-sp": {
+    "prefix": "innon",
+    "body": [
+      "@include not-sp {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "media-sp": {
+    "prefix": "ins",
+    "body": [
+      "@include sp {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "media-ie": {
+    "prefix": "ine",
+    "body": [
+      "@include ie11 {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "nth-of-type": {
+    "prefix": "nth",
+    "body": [
+      ":nth-of-type($1) {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "display-block": {
+    "prefix": "d",
+    "body": [
+      "display: block;"
+    ]
+  },
+  "translate-X": {
+    "prefix": "tranx",
+    "body": [
+      "transform: translateX(${0:-50%});"
+    ]
+  },
+  "translate-Y": {
+    "prefix": "trany",
+    "body": [
+      "transform: translateY(${0:-50%});"
+    ]
+  },
+  "flex-item-width": {
+    "prefix": "fmax",
+    "body": [
+      "max-width: ${1}%;",
+      "flex-basis: ${1}%;"
+    ]
+  },
+  "pseudo-element": {
+    "prefix": "giji",
+    "body": [
+      "position: absolute;",
+      "top: 0;",
+      "left: 0;",
+      "width: ${1}px;",
+      "height: ${2}px;",
+      "background: url(/assets/images/${3}) no-repeat 100% / contain;",
+      "content: \"\";",
+    ]
+  },
+  "background": {
+    "prefix": "bg",
+    "body": [
+      "background: #${1};"
+    ]
+  },
+  "color": {
+    "prefix": "c",
+    "body": [
+      "color: #${1};"
+    ]
+  },
+}

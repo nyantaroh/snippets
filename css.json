@@ -1,0 +1,65 @@
+{
+  "border-radius": {
+    "prefix": "radius",
+    "body": [
+      "border-radius: $0px;"
+    ]
+  },
+  "nth-of-type": {
+    "prefix": "nth",
+    "body": [
+      ":nth-of-type($1) {",
+      "\t$0",
+      "}"
+    ]
+  },
+  "display-block": {
+    "prefix": "d",
+    "body": [
+      "display: block;"
+    ]
+  },
+  "translate-X": {
+    "prefix": "tranx",
+    "body": [
+      "transform: translateX(${0:-50%});"
+    ]
+  },
+  "translate-Y": {
+    "prefix": "trany",
+    "body": [
+      "transform: translateY(${0:-50%});"
+    ]
+  },
+  "flex-item-width": {
+    "prefix": "fmax",
+    "body": [
+      "max-width: ${1}%;",
+      "flex-basis: ${1}%;"
+    ]
+  },
+  "pseudo-element": {
+    "prefix": "giji",
+    "body": [
+      "position: absolute;",
+      "top: 0;",
+      "left: 0;",
+      "width: ${1}px;",
+      "height: ${2}px;",
+      "background: url(/assets/images/${3}) no-repeat 100% / contain;",
+      "content: \"\";",
+    ]
+  },
+  "background": {
+    "prefix": "bg",
+    "body": [
+      "background: #${1};"
+    ]
+  },
+  "color": {
+    "prefix": "c",
+    "body": [
+      "color: #${1};"
+    ]
+  },
+}
