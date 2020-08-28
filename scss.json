@@ -37,14 +37,6 @@
       "}"
     ]
   },
-  "media-ie": {
-    "prefix": "ine",
-    "body": [
-      "@include ie11 {",
-      "\t$0",
-      "}"
-    ]
-  },
   "nth-of-type": {
     "prefix": "nth",
     "body": [
@@ -100,6 +92,14 @@
     "prefix": "c",
     "body": [
       "color: #${1};"
+    ]
+  },
+  "ie11": {
+    "prefix": "ie",
+    "body": [
+      "@at-root _:-ms-fullscreen, :root & {",
+      "\t$0",
+      "}"
     ]
   },
 }
