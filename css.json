@@ -62,4 +62,12 @@
       "color: #${1};"
     ]
   },
+  "outline": {
+    "prefix": "out",
+    "body": [
+      "*, *::before, *::after {",
+      "\toutline: 1px solid black;",
+      "}"
+    ]
+  },
 }
