@@ -37,6 +37,18 @@
       "}"
     ]
   },
+  "scale-value": {
+    "prefix": "sv",
+    "body": [
+      "#{sv($0)}"
+    ]
+  },
+  "scale-font": {
+    "prefix": "svf",
+    "body": [
+      "@include svf($0);"
+    ]
+  },
   "nth-of-type": {
     "prefix": "nth",
     "body": [
