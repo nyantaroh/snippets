@@ -37,6 +37,14 @@
       "}"
     ]
   },
+  "condition-hover": {
+    "prefix": "inh",
+    "body": [
+      "@include hover {",
+      "\t$0",
+      "}"
+    ]
+  },
   "scale-value": {
     "prefix": "sv",
     "body": [
