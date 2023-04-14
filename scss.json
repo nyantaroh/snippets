@@ -1,6 +1,6 @@
 {
   "border-radius": {
-    "prefix": "radius",
+    "prefix": "rad",
     "body": [
       "border-radius: $0px;"
     ]
@@ -21,14 +21,6 @@
       "}"
     ]
   },
-  "media-not-sp": {
-    "prefix": "innon",
-    "body": [
-      "@include not-sp {",
-      "\t$0",
-      "}"
-    ]
-  },
   "media-sp": {
     "prefix": "ins",
     "body": [
@@ -37,7 +29,7 @@
       "}"
     ]
   },
-  "condition-hover": {
+  "condition hover": {
     "prefix": "inh",
     "body": [
       "@include hover {",
@@ -45,81 +37,52 @@
       "}"
     ]
   },
-  "scale-value": {
-    "prefix": "sv",
-    "body": [
-      "#{sv($0)}"
-    ]
-  },
-  "scale-font": {
-    "prefix": "svf",
-    "body": [
-      "@include svf($0);"
-    ]
-  },
   "nth-of-type": {
     "prefix": "nth",
     "body": [
-      ":nth-of-type($1) {",
-      "\t$0",
-      "}"
+      ":nth-of-type($0)"
     ]
   },
-  "display-block": {
+  "display block": {
     "prefix": "d",
     "body": [
       "display: block;"
     ]
   },
-  "translate-X": {
+  "translate X": {
     "prefix": "tranx",
     "body": [
       "transform: translateX(${0:-50%});"
     ]
   },
-  "translate-Y": {
+  "translate Y": {
     "prefix": "trany",
     "body": [
       "transform: translateY(${0:-50%});"
     ]
   },
-  "flex-item-width": {
-    "prefix": "fmax",
-    "body": [
-      "max-width: ${1}%;",
-      "flex-basis: ${1}%;"
-    ]
-  },
-  "pseudo-element": {
+  "pseudo element": {
     "prefix": "giji",
     "body": [
       "position: absolute;",
       "top: 0;",
       "left: 0;",
-      "width: ${1}px;",
-      "height: ${2}px;",
-      "background: url(/assets/images/${3}) no-repeat center / contain;",
-      "content: \"\";",
+      "width: ${0}px;",
+      "height: ${1}px;",
+      "background: url(/assets/images/${2}) no-repeat center / contain;",
+      "content: \"\";"
     ]
   },
   "background": {
     "prefix": "bg",
     "body": [
-      "background: #${1};"
+      "background: #${0};"
     ]
   },
   "color": {
     "prefix": "c",
     "body": [
-      "color: #${1};"
-    ]
-  },
-  "ie11": {
-    "prefix": "ie",
-    "body": [
-      "@at-root _:-ms-fullscreen, :root & {",
-      "\t$0",
-      "}"
+      "color: #${0};"
     ]
   },
   "outline": {
@@ -129,5 +92,5 @@
       "\toutline: 1px solid black;",
       "}"
     ]
-  },
+  }
 }
