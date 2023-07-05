@@ -92,5 +92,9 @@
       "\toutline: 1px solid black;",
       "}"
     ]
+  },
+  "fit": {
+    "prefix": "fit",
+    "body": "@include fit;"
   }
 }

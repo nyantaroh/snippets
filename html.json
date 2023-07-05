@@ -16,5 +16,18 @@
     "body": [
       "rel=\"noreferrer\" target=\"_blank\""
     ]
+  },
+  "ejs function": {
+    "prefix": "ejs",
+    "body": [
+      "<%",
+      "const $1 = [",
+      "  {",
+      "    $2: 'xxx',",
+      "  },",
+      "];",
+      "-%>",
+      "<%-%>"
+    ]
   }
 }
