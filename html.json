@@ -29,5 +29,11 @@
       "-%>",
       "<%-%>"
     ]
+  },
+  "php var_dump": {
+    "prefix": "var",
+    "body": [
+      "<?php var_dump(); ?>"
+    ]
   }
 }
