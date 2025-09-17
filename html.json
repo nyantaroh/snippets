@@ -33,7 +33,7 @@
   "php var_dump": {
     "prefix": "var",
     "body": [
-      "<?php var_dump(); ?>"
+      "<?php var_dump($1); ?>"
     ]
   }
 }
